@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tic_Tac_Toe.MainPage">
+
+    <StackLayout>
+        <Label
+            x:Name="TicTacToe"
+            Text="Welcome To Tic-Tac-Toe"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            
+            <Button
+                x:Name="GameButton1"
+                Text=""
+                FontSize="Large"
+                VerticalOptions="Center"
+                HorizontalOptions="End"
+                HeightRequest="200"
+                WidthRequest="200"
+                Grid.Column="0"
+                ClassId="GameButton1"
+                Grid.Row="0"
+                Clicked="GameButton1_Clicked"/>
+            <Button
+                x:Name="GameButton2"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Text=""
+                FontSize="Large"
+                HeightRequest="200"
+                WidthRequest="200"
+                ClassId="Gamebutton2"
+                Grid.Column="1"
+                Grid.Row="0"
+                Clicked="GameButton1_Clicked"/>
+            <Button
+                x:Name="GameButton3"
+                VerticalOptions="Center"
+                HorizontalOptions="Start"
+                Text=""
+                FontSize="Large"
+                HeightRequest="200"
+                WidthRequest="200"
+                ClassId="GameButton3"
+                Grid.Column="2"
+                Grid.Row="0"
+                Clicked="GameButton1_Clicked"/>
+            <Button
+                x:Name="GameButton4"
+                VerticalOptions="Center"
+                HorizontalOptions="End"
+                Text=""
+                FontSize="Large"
+                HeightRequest="200"
+                WidthRequest="200"
+                ClassId="GameButton4"
+                Grid.Column="0"
+                Grid.Row="1"
+                Clicked="GameButton1_Clicked"/>
+            <Button
+                x:Name="GameButton5"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                HeightRequest="200"
+                WidthRequest="200"
+                Text=""
+                FontSize="Large"
+                ClassId="GameButton5"
+                Grid.Column="1"
+                Grid.Row="1"
+                Clicked="GameButton1_Clicked"/>
+            <Button
+                x:Name="GameButton6"
+                VerticalOptions="Center"
+                HorizontalOptions="Start"
+                HeightRequest="200"
+                WidthRequest="200"
+                Text=""
+                FontSize="Large"
+                ClassId="GameButton6"
+                Grid.Column="2"
+                Grid.Row="1"
+                Clicked="GameButton1_Clicked"/>
+            <Button
+                x:Name="GameButton7"
+                VerticalOptions="Center"
+                HorizontalOptions="End"
+                HeightRequest="200"
+                WidthRequest="200"
+                Text=""
+                FontSize="Large"
+                ClassId="GameButton7"
+                Grid.Column="0"
+                Grid.Row="2"
+                Clicked="GameButton1_Clicked"/>
+            <Button
+                x:Name="GameButton8"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                HeightRequest="200"
+                WidthRequest="200"
+                Text=""
+                FontSize="Large"
+                ClassId="GameButton8"
+                Grid.Column="1"
+                Grid.Row="2"
+                Clicked="GameButton1_Clicked"/>
+            <Button
+                x:Name="GameButton9"
+                VerticalOptions="Center"
+                HorizontalOptions="Start"
+                HeightRequest="200"
+                WidthRequest="200"
+                Text=""
+                FontSize="Large"
+                ClassId="GameButton9"
+                Grid.Column="2"
+                Grid.Row="2"
+                Clicked="GameButton1_Clicked"/>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>
